@@ -1,0 +1,5 @@
+﻿TableID,Name,Hp,Speed,CoolTime,ResourcesPath
+1,Goblin_0,100,3,3,Goblin_0
+2,Goblin_1,200,4,3,Goblin_1
+3,Goblin_2,300,4,2,Goblin_2
+4,Goblin_3,400,5,2,Goblin_3

@@ -1,0 +1,11 @@
+3일차 수업
+
+
+1.State를 관리해본다. Animation으로 State변화를 확인을 먼저한다. 
+SetBool 같은 툴로 변경하는것이 아닌 코드로 작성해보자. 
+
+2.State 세팅 Switch를 해본다음에 -> Refelection 을 사용하는 방법을 FSM을 만들어보면 좋다. 
+
+
+3.Table 테스트용으로 고블린을 3종 만들어서 해보자  
+

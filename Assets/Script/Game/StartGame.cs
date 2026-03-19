@@ -15,7 +15,14 @@ public class StartGame : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.F2))
         {
-            SantaSceneManager.Instance.SceneLoad(SCENENAME.GameScene);
+            //SantaSceneManager.Instance.SceneLoad(SCENENAME.GameScene);
+
+            var monsters = TableLoader.Load("Table/MonsterTable");         
+
+            foreach (var monster in monsters)   
+            {
+                Debug.Log("Monster: " + monster.Path);
+            }
         }
         
     }
