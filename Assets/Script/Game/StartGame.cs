@@ -17,7 +17,8 @@ public class StartGame : MonoBehaviour
         {
             //SantaSceneManager.Instance.SceneLoad(SCENENAME.GameScene);
 
-            var monsters = TableLoader.Load("Table/MonsterTable");         
+            //var monsters = TableLoader.Load("Table/MonsterTable");         
+            var monsters = TableLoader.Load("Table/TextTable");         
 
             foreach (var monster in monsters)   
             {
