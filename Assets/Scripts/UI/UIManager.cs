@@ -49,6 +49,15 @@ public class UIManager : MonoBehaviour
         return comp as T;
     }
 
+    public T GetUI<T>() where T : UIBase
+    {
+        if(_uiContainer.ContainsKey(typeof(T)))
+        {
+            return _uiContainer[typeof(T)] as T;
+        }
+        return null;
+    }
+
     public void RemoveUI(UIBase ui)
     {
         if(_uiContainer.ContainsKey(ui.GetType()))
