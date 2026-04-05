@@ -1,0 +1,70 @@
+산학강의 실력평가 
+
+
+
+문제 A
+
+프로젝트 경로 Resources/Table  하위에 
+ExcelTable.csv 파일에  프로젝트에서 사용될 Agent들의 정보가 기록되어있습니다. 
+
+StartScene에서 치트키 "Spcae"키를 눌렀을때 
+
+Table에 기록된 ID 3번의 Agent를 유니티 Scene에 등장하게 만들어보세요. 
+
+- 필수 사용 클래스 GameManager / AgentManager를 사용하십시오.
+
+
+A-2 
+
+기본 Cube를 프리팹으로 만듭니다. ( Local위치 (0,0,0) )
+
+이 Cube를 Table에 추가하여 Scene에서 치트키("F5")를 눌럿을때 Scene에 (3,1,1) 위치에 등장시키려고합니다.
+
+Table데이터를 수정하고, 치트키를 만들어 해당 Cube를 소환하는 코드를 작성하세요
+
+ 
+
+
+문제 B
+
+QuestionScene에 Tester라는 GameObject에 Tester라는 스크립트가 붙어있습니다. 
+
+QuestionScene을 플레이하면 Agent가 위치(0,0,0)에 소환되어있는것을 확인할 수 있습니다
+
+이 Agent를 GameManager가 가지고있는 AgentManager를 사용하여 Scene에서 삭제하세요.
+
+
+문제 C 
+
+QuestionScene에 Tester라는 GameObject에 Tester라는 스크립트가 붙어있습니다. 
+
+F1키를 눌렀을때 YesNo 팝업이 생성될 것 입니다.
+
+버튼이 1개인 Ok팝업을 만들어서 F2키를 눌렀을때 생성이 되게하려고 합니다.
+
+OK팝업을 프리팹으로 만들어 UIManager로 F2키를 눌렀을때 QuestionScene에 생성되게 만들어보세요. ( 코드작성 및 연결 5점)
+
+OK 팝업은 전체화면을 덮는 기능이며, 화면 해상도가 바뀌어도 UI가 전체화면을 유지하도록 Anchor를 설정 하세요 .  (프리팹 완성도 : 5점)
+
+Ok를 눌렀을때 "팝업이 삭제되었습니다" 를 Console Log로 기록하세요. (5점)
+
+그리고 팝업을 닫히는 기능을 만들어 주세요. (5점)
+
+
+문제 D 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
